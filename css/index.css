@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+
+    font-family: 'Lato', sans-serif;
+}
+.genre p i{
+    text-align: center;
+    padding-left:5px;
+    padding-right:5px;
+    
+}
+
+nav {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #686868;
+
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    padding: 30px;
+}
+
+.nav__link {
+    color: white;
+}
+
+
+.card {
+    width: 100%;
+    max-width: 200px;
+
+    background-color: black;
+    border-radius: 6px;
+    overflow: hidden;
+
+    text-decoration: none;
+}
+
+.container {
+    padding:10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+    background-color:black;
+}
+
+.card__image {
+    width: 100%;
+}
+
+.card__content {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    height: 70px;
+
+    
+}
+.card__attribute{
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.hero {
+    width: 100%;
+    height: 300px;
+    
+    display: grid;
+    place-items: center;
+    color:white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 30px;
+    font-weight: bold;
+    background-color:#262725;
+}
+
+footer {
+    color:white;
+    text-align: center;
+    background-color: gray;
+    padding: 30px;
+}
+
+.dcontent{
+    width: 100%;
+    background-color:black;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+        grid-template-columns: 100px 50px 100px;
+        grid-template-rows: 80px auto 80px; 
+        column-gap: 10px;
+        row-gap: 15px;
+}
+.dcontent h1{
+    text-shadow: 2px 2px 4px gray;
+}
+
+
+.dposter {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding:20px;
+    max-width: 350px;
+    display: block;
+    margin: auto;
+
+    
+}
+
+.dtitle {
+    padding: 10px;
+    font-size: 2em;
+    margin: 0.5em auto;
+}
+
+.ddescription {
+    text-align: justify;
+    padding: 10px;
+    font-size: 1.2em;
+    height: 300px;
+}
+.genre{
+    text-align: justify;
+    padding: 0 2em 2em 2em;
+    font-size: 1.2em;
+}
